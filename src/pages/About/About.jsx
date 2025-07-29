@@ -34,9 +34,9 @@ function About() {
           </h2>
           <p className="mt-3  font-semibold md:mt-5">
             Hello, my name is Mohamed Emad, I'm a 25-year-old computer engineer
-            graduated from the Faculty of Engineering, Computer Department at
-            Pharos University in Alexandria (PUA). Throughout my academic years,
-            I developed a strong interest in software development, especially
+            graduated from Faculty of Engineering, Computer Department at Pharos
+            University in Alexandria (PUA). Throughout my academic years, I
+            developed a strong interest in software development, especially
             front-end technologies. I focused on building user-friendly,
             responsive web interfaces using modern tools and frameworks like
             React. My curiosity and problem-solving mindset have driven me to
