@@ -29,10 +29,10 @@ function About() {
     <div>
       <section className="flex flex-col justify-center items-center pt-10 md:items-start min-h-[83vh] md:flex-row md:justify-between md:gap-6 md:pt-20 overflow-hidden relative">
         <div className="pt-4 pb-6 text-center md:text-left md:w-1/2 lg:w-1/3 z-20 md:pt-8 md:ms-[8%]">
-          <h2 className="text-4xl  font-bold md:text-3xl lg:text-6xl main-text ps-2">
+          <h2 className="text-4xl  font-bold md:text-3xl lg:text-5xl main-text ps-2">
             About Me
           </h2>
-          <p className="mt-3 text-lg font-semibold md:mt-5">
+          <p className="mt-3  font-semibold md:mt-5">
             Hello, my name is Mohamed Emad, I'm a 25-year-old computer engineer
             graduated from the Faculty of Engineering, Computer Department at
             Pharos University in Alexandria (PUA). Throughout my academic years,
