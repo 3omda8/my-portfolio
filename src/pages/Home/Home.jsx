@@ -70,6 +70,7 @@ function Home() {
       </div>
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }
