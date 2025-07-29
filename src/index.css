@@ -1,0 +1,20 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "tailwindcss";
+
+.main-bg {
+  background: linear-gradient(to right, #ffe9d3, #fffaee);
+}
+
+.main-text {
+  color: #083839;
+}
+
+.active {
+  color: #ff6b6b;
+}
+
+.circle-md {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
