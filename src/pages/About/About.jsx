@@ -26,7 +26,7 @@ function About() {
   ];
 
   return (
-    <div>
+    <main>
       <section className="flex flex-col justify-center items-center pt-10 md:items-start min-h-[83vh] md:flex-row md:justify-between md:gap-6 md:pt-20 overflow-hidden relative secondary-bg">
         <div className="pt-4 pb-6 text-center md:text-left md:w-1/2 lg:w-1/3 z-20 md:pt-8 md:ms-[8%]">
           <h2 className="text-4xl  font-bold md:text-3xl lg:text-5xl text-main-txt ps-2">
@@ -102,7 +102,7 @@ function About() {
           </ul>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
 

@@ -58,7 +58,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section className="secondary-bg">
+    <main className="secondary-bg">
       <h2 className="text-4xl font-bold my-6 text-center text-orange-900">
         My Projects
       </h2>
@@ -67,7 +67,7 @@ function Projects() {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-    </section>
+    </main>
   );
 }
 

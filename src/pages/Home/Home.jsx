@@ -7,7 +7,7 @@ import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 function Home() {
   return (
-    <>
+    <main>
       <div className="flex flex-col justify-center items-center min-h-[83vh] md:flex-row md:gap-6">
         <Cog
           size={50}
@@ -71,7 +71,7 @@ function Home() {
       <About />
       <Projects />
       <Contact />
-    </>
+    </main>
   );
 }
 

@@ -16,7 +16,7 @@ function Contact() {
   };
 
   return (
-    <>
+    <main>
       <h2 className="text-4xl xl:text-5xl font-bold text-center pt-16 md:pb-12 text-orange-900">
         Contact Me
       </h2>
@@ -167,7 +167,7 @@ function Contact() {
           </form>
         </div>
       </section>
-    </>
+    </main>
   );
 }
 
