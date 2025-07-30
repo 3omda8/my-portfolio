@@ -58,8 +58,8 @@ const projects = [
 
 function Projects() {
   return (
-    <main className="secondary-bg">
-      <h2 className="text-4xl font-bold my-6 text-center text-orange-900">
+    <main className="secondary-bg py-6">
+      <h2 className="text-4xl font-bold py-6 text-center text-orange-900">
         My Projects
       </h2>
       <div className="p-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
