@@ -6,7 +6,7 @@ function Layout() {
   return (
     <section className="min-h-screen flex flex-col bg-white text-black">
       <Navbar />
-      <section className="flex-grow main-bg">
+      <section className="main-bg">
         <Outlet />
       </section>
       <Footer />
