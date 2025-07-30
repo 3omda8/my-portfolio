@@ -116,6 +116,7 @@ function Contact() {
                 type="text"
                 name="name"
                 required
+                tabIndex={-1}
                 className="w-full border rounded px-4 py-2 mt-1 focus:outline-orange-900"
               />
             </div>
@@ -132,6 +133,7 @@ function Contact() {
                 type="email"
                 name="email"
                 required
+                tabIndex={-1}
                 className="w-full border rounded px-4 py-2 mt-1 focus:outline-orange-900"
               />
             </div>
@@ -148,6 +150,7 @@ function Contact() {
                 name="message"
                 rows="5"
                 required
+                tabIndex={-1}
                 className="w-full border rounded px-4 py-2 mt-1 focus:outline-orange-900 resize-none"
               ></textarea>
             </div>
