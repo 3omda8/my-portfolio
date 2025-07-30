@@ -23,14 +23,14 @@ function Contact() {
       <section className="flex flex-col md:flex-row">
         <div className="w-3/4 mx-auto md:w-1/2">
           <div className="md:w-3/4 mx-auto px-8">
-            <p className="text-center md:text-left main-text text-xl md:text-2xl font-semibold py-4 md:font-bold">
+            <p className="text-center md:text-left text-main-txt text-xl md:text-2xl font-semibold py-4 md:font-bold">
               Thank you for visiting, and I hope you find inspiration in my
               work!
             </p>
-            <h3 className=" main-text  text-xl font-bold py-4 ">
+            <h3 className=" text-main-txt  text-xl font-bold py-4 ">
               Mohamed Emad
             </h3>
-            <p className="text-white text-lg font-semibold bg-gray-700 max-w-fit px-4 py-2 rounded-full relative ms-[-12px]">
+            <p className="text-white text-lg font-semibold bg-main-txt max-w-fit px-4 py-2 rounded-full relative ms-[-12px]">
               Contact Information
             </p>
             <ul className="flex flex-col gap-2 mt-4 mb-4">

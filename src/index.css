@@ -1,12 +1,15 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 @import "tailwindcss";
 
+@theme {
+  --color-main-txt: #083839;
+}
+
 .main-bg {
   background: linear-gradient(to right, #ffe9d3, #fffaee);
 }
-
-.main-text {
-  color: #083839;
+.secondary-bg {
+  background: linear-gradient(to right, #fffaee, #ffe9d3);
 }
 
 .active {

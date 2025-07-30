@@ -25,7 +25,7 @@ function Home() {
           size={50}
           className="absolute top-[56%] left-[16%] text-gray-500"
         />
-        <section className=" border-22 rounded-full overflow-hidden w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px]  main-text z-20">
+        <section className=" border-22 rounded-full overflow-hidden w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px]  text-main-txt z-20">
           <img
             src={personal}
             alt="Home"
@@ -34,7 +34,7 @@ function Home() {
         </section>
 
         <section className="text-center pt-4 md:w-1/2 lg:w-1/4 z-20">
-          <h1 className="text-2xl font-bold md:text-3xl lg:text-4xl main-text">
+          <h1 className="text-2xl font-bold md:text-3xl lg:text-4xl text-main-txt">
             <TypeAnimation
               sequence={[
                 "Hello, I'm Mohamed Emad",
@@ -56,12 +56,12 @@ function Home() {
             <a
               href="/Mohamed-Emad-Dawood-Front-End-Engineer-CV.pdf"
               download="Mohamed-Emad-Dawood-CV.pdf"
-              className=" bg-orange-900 text-white px-4 py-2 rounded font-semibold hover:outline-1 hover:outline-orange-900 hover:text-black hover:bg-transparent transition-colors"
+              className=" bg-orange-900 text-white px-4 py-2 rounded font-semibold hover:outline-1 hover:outline-orange-900 hover:text-main-txt hover:bg-transparent transition-colors"
             >
               Download Resume
             </a>
             <NavLink to="/contact">
-              <button className="outline-orange-900 outline-1 text-black font-semibold px-4 py-2 rounded hover:bg-orange-900 hover:text-white transition-colors">
+              <button className="outline-orange-900 outline-1 text-main-txt font-semibold px-4 py-2 rounded hover:bg-orange-900 hover:text-white hover:cursor-pointer transition-colors">
                 Contact Me
               </button>
             </NavLink>
