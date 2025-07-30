@@ -95,6 +95,7 @@ function Contact() {
         </div>
         <div className="flex items-center justify-center md:w-1/2 mt-4 mb-10">
           <form
+            aria-describedby="contact-form-description"
             ref={formRef}
             onSubmit={handleSubmit}
             action="https://formsubmit.co/mohameddawood664@gmail.com"
