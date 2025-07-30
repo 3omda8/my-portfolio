@@ -105,8 +105,14 @@ function Contact() {
             <input type="hidden" name="_next" value={`${baseUrl}/contact`} />
 
             <div>
-              <label className="block text-gray-700 font-semibold">Name</label>
+              <label
+                htmlFor="name"
+                className="block text-gray-700 font-semibold"
+              >
+                Name
+              </label>
               <input
+                id="name"
                 type="text"
                 name="name"
                 required
@@ -115,8 +121,14 @@ function Contact() {
             </div>
 
             <div>
-              <label className="block text-gray-700 font-semibold">Email</label>
+              <label
+                htmlFor="email"
+                className="block text-gray-700 font-semibold"
+              >
+                Email
+              </label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 required
@@ -125,10 +137,14 @@ function Contact() {
             </div>
 
             <div>
-              <label className="block text-gray-700 font-semibold">
+              <label
+                htmlFor="message"
+                className="block text-gray-700 font-semibold"
+              >
                 Message
               </label>
               <textarea
+                id="message"
                 name="message"
                 rows="5"
                 required
