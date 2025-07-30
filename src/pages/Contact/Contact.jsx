@@ -45,7 +45,7 @@ function Contact() {
                     className="fa-brands fa-linkedin text-xl me-1"
                     style={{ color: "#0476cd" }}
                   ></i>
-                  LinkedIn
+                  <span>LinkedIn</span>
                 </a>
               </li>
               <li>
@@ -59,7 +59,7 @@ function Contact() {
                     className="fa-brands fa-github text-xl me-1"
                     style={{ color: "#333" }}
                   ></i>
-                  GitHub
+                  <span>GitHub</span>
                 </a>
               </li>
               <li>
@@ -73,7 +73,7 @@ function Contact() {
                     className="fa-brands fa-square-whatsapp text-xl me-1"
                     style={{ color: "#0bfe3c" }}
                   ></i>
-                  WhatsApp
+                  <span>WhatsApp</span>
                 </a>
               </li>
               <li>
@@ -87,7 +87,7 @@ function Contact() {
                     className="fa-brands fa-facebook text-xl me-1"
                     style={{ color: "#1964e6" }}
                   ></i>
-                  Facebook
+                  <span>Facebook</span>
                 </a>
               </li>
             </ul>

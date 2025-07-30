@@ -30,6 +30,7 @@ function Navbar() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden focus:outline-none z-20"
+        aria-label="Toggle Menu"
       >
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
